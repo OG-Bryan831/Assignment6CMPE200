@@ -1,2 +1,27 @@
 Time resolution is 1 ps
-$finish called at time : 190 ns : File "C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/testbench/tb_mips_top.v" Line 53
+hilo:0xxxxxxxxx
+hilo:0xxxxxxxxx
+hilo:0xxxxxxxxx
+hilo:0xxxxxxxxx
+hilo:0xxxxxxxxx
+hilo:0xxxxxxxxx
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+hilo:0x00030d40
+$finish called at time : 200 ns : File "C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/testbench/tb_mips_top.v" Line 53

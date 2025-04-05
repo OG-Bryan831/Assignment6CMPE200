@@ -15,7 +15,8 @@ module datapath (
         output wire [31:0] alu_out,
         output wire [31:0] wd_dm,
         output wire [31:0] rd3,
-        output wire [63:0] overflow
+        output wire [63:0] overflow,
+        input wire hilo_ctrl
     );
 
     wire [4:0]  rf_wa;
@@ -31,6 +32,7 @@ module datapath (
     wire [31:0] alu_pb;
     wire [31:0] wd_rf;
     wire        zero;
+    
     
     assign pc_src = branch & zero;
     assign ba = {sext_imm[29:0], 2'b00};
@@ -117,7 +119,8 @@ module datapath (
    hilo hilo(
     .rst (rst),
     .clk (clk),
-    .InputOverflow (overflow)   
+    .InputOverflow (overflow),
+    .hilo_ctrl (hilo_ctrl)   
    );
 
     // --- MEM Logic --- //
