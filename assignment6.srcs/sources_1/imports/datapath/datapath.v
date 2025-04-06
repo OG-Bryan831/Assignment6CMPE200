@@ -37,10 +37,14 @@ module datapath (
     wire [31:0] mux_ha;
     wire [31:0] hilo_out;
     
+    wire [4:0] shamt;
+    
     
     assign pc_src = branch & zero;
     assign ba = {sext_imm[29:0], 2'b00};
     assign jta = {pc_plus4[31:28], instr[25:0], 2'b00};
+    
+   // assign shamt = instr[10:6];
     
     // --- PC Logic --- //
     dreg pc_reg (
@@ -115,6 +119,7 @@ module datapath (
             .op             (alu_ctrl),
             .a              (alu_pa),
             .b              (alu_pb),
+            .shamt          (instr[10:6]),
             .zero           (zero),
             .y              (alu_out),
             .OverflowResult (overflow)
