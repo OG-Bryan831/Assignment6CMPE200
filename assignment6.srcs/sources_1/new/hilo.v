@@ -11,7 +11,7 @@ module hilo(
     reg [31:0] HI; // one for hi one for lo
     reg [31:0] LO;
 
-    always @(posedge clk, rst, hilo_ctrl) begin
+    always @(posedge clk or posedge rst) begin
         if(rst) begin
             HI <= 0;
             LO <= 0;
@@ -20,14 +20,21 @@ module hilo(
             HI<= {InputOverflow[63:32]};
             LO<= {InputOverflow[31:0]};
             
-            case(hilo_ctrl)
+            /*case(hilo_ctrl)
                 1'b0:hilo_out <= LO;
                 1'b1:hilo_out <= HI;
 
-           endcase
+           endcase*/
             $display("hilo:0x%h",hilo_out);
         end
 
+    end
+    
+     always @(*) begin
+        case (hilo_ctrl)
+            1'b0: hilo_out = LO;
+            1'b1: hilo_out = HI;
+        endcase
     end
 
 endmodule

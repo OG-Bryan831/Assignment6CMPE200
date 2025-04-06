@@ -17,5 +17,5 @@ C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/mips/mips.
 C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/mips/mips_top.v,1743368642,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/mux2.v,,mips_top,,,,,,,,
 C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/testbench/tb_mips_top.v,1743368642,verilog,,,,tb_mips_top,,,,,,,,
 C:/CMPE200/assignment6/assignment6.sim/sim_1/behav/xsim/glbl.v,1743899703,verilog,,,,glbl,,,,,,,,
-C:/CMPE200/assignment6/assignment6.srcs/sources_1/imports/datapath/datapath.v,1743910713,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/memory/dmem.v,,datapath,,,,,,,,
-C:/CMPE200/assignment6/assignment6.srcs/sources_1/new/hilo.v,1743891035,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/memory/imem.v,,hilo,,,,,,,,
+C:/CMPE200/assignment6/assignment6.srcs/sources_1/imports/datapath/datapath.v,1743912835,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/memory/dmem.v,,datapath,,,,,,,,
+C:/CMPE200/assignment6/assignment6.srcs/sources_1/new/hilo.v,1743912354,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/memory/imem.v,,hilo,,,,,,,,
