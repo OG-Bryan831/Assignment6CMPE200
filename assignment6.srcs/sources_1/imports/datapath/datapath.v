@@ -120,7 +120,9 @@ module datapath (
     .rst (rst),
     .clk (clk),
     .InputOverflow (overflow),
-    .hilo_ctrl (hilo_ctrl)   
+    .hilo_ctrl (hilo_ctrl),
+    
+    .hilo_out (hilo_out)   
    );
 
     // --- MEM Logic --- //

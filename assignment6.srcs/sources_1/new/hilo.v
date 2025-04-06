@@ -3,7 +3,7 @@ module hilo(
     input wire clk,
     input wire rst,
     input wire [63:0] InputOverflow,
-    output reg [31:0] hilo,
+    output reg [31:0] hilo_out,
     input wire hilo_ctrl
 );
 
@@ -21,11 +21,11 @@ module hilo(
             LO<= {InputOverflow[31:0]};
             
             case(hilo_ctrl)
-                1'b0:hilo <= LO;
-                1'b1:hilo <= HI;
+                1'b0:hilo_out <= LO;
+                1'b1:hilo_out <= HI;
 
            endcase
-            $display("hilo:0x%h",hilo);
+            $display("hilo:0x%h",hilo_out);
         end
 
     end
