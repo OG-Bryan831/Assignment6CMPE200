@@ -16,7 +16,9 @@ module datapath (
         output wire [31:0] wd_dm,
         output wire [31:0] rd3,
         output wire [63:0] overflow,
-        input wire hilo_ctrl
+        input wire hilo_ctrl,
+        input wire hilo_sel_mux
+      //  output wire mux_ha 
     );
 
     wire [4:0]  rf_wa;
@@ -32,6 +34,8 @@ module datapath (
     wire [31:0] alu_pb;
     wire [31:0] wd_rf;
     wire        zero;
+    
+    wire [31:0] hilo_out;
     
     
     assign pc_src = branch & zero;
@@ -125,10 +129,17 @@ module datapath (
     .hilo_out (hilo_out)   
    );
 
+    mux2 #(32) hi_alu_mux(
+    .sel (hilo_sel_mux),
+    .a (alu_out),
+    .b (hilo_out)
+  //  .y (mux_ha)
+    
+    );
     // --- MEM Logic --- //
     mux2 #(32) rf_wd_mux (
             .sel            (dm2reg),
-            .a              (alu_out),
+            .a              (alu_out), //
             .b              (rd_dm),
             .y              (wd_rf)
         );

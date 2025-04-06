@@ -2,8 +2,8 @@
 2020.2
 Jun 10 2021
 20:04:57
-C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/auxdec.v,1743895255,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/controlunit.v,,auxdec,,,,,,,,
-C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/controlunit.v,1743895342,verilog,,C:/CMPE200/assignment6/assignment6.srcs/sources_1/imports/datapath/datapath.v,,controlunit,,,,,,,,
+C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/auxdec.v,1743910646,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/controlunit.v,,auxdec,,,,,,,,
+C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/controlunit.v,1743909672,verilog,,C:/CMPE200/assignment6/assignment6.srcs/sources_1/imports/datapath/datapath.v,,controlunit,,,,,,,,
 C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/maindec.v,1743550755,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/mips/mips.v,,maindec,,,,,,,,
 C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/adder.v,1743368641,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/alu.v,,adder,,,,,,,,
 C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/alu.v,1743895061,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/control_unit/auxdec.v,,alu,,,,,,,,
@@ -17,5 +17,5 @@ C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/mips/mips.
 C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/mips/mips_top.v,1743368642,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/mux2.v,,mips_top,,,,,,,,
 C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/testbench/tb_mips_top.v,1743368642,verilog,,,,tb_mips_top,,,,,,,,
 C:/CMPE200/assignment6/assignment6.sim/sim_1/behav/xsim/glbl.v,1743899703,verilog,,,,glbl,,,,,,,,
-C:/CMPE200/assignment6/assignment6.srcs/sources_1/imports/datapath/datapath.v,1743891807,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/memory/dmem.v,,datapath,,,,,,,,
+C:/CMPE200/assignment6/assignment6.srcs/sources_1/imports/datapath/datapath.v,1743910013,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/memory/dmem.v,,datapath,,,,,,,,
 C:/CMPE200/assignment6/assignment6.srcs/sources_1/new/hilo.v,1743891035,verilog,,C:/CMPE200/MIPS_single_cycle_patched/single_cycle_mips_source_initial/memory/imem.v,,hilo,,,,,,,,
