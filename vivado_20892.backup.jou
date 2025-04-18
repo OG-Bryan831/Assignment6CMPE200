@@ -2,10 +2,10 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sun Apr  6 20:32:50 2025
-# Process ID: 25216
+# Start of session at: Sat Apr  5 17:02:19 2025
+# Process ID: 20892
 # Current directory: C:/CMPE200/assignment6
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18520 C:\CMPE200\assignment6\assignment6.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19432 C:\CMPE200\assignment6\assignment6.xpr
 # Log file: C:/CMPE200/assignment6/vivado.log
 # Journal file: C:/CMPE200/assignment6\vivado.jou
 #-----------------------------------------------------------
@@ -13,5 +13,4 @@ start_gui
 open_project C:/CMPE200/assignment6/assignment6.xpr
 update_compile_order -fileset sources_1
 launch_simulation
-source tb_mips_top.tcl
-close_sim
+launch_simulation

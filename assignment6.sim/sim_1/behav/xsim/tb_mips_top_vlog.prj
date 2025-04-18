@@ -13,6 +13,7 @@ verilog xil_defaultlib  \
 "../../../../../MIPS_single_cycle_patched/single_cycle_mips_source_initial/mips/mips.v" \
 "../../../../../MIPS_single_cycle_patched/single_cycle_mips_source_initial/mips/mips_top.v" \
 "../../../../../MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/mux2.v" \
+"../../../../assignment6.srcs/sources_1/new/mux3.v" \
 "../../../../../MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/regfile.v" \
 "../../../../../MIPS_single_cycle_patched/single_cycle_mips_source_initial/datapath/signext.v" \
 "../../../../../MIPS_single_cycle_patched/single_cycle_mips_source_initial/testbench/tb_mips_top.v" \
